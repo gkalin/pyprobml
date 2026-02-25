@@ -13,7 +13,7 @@ def postprocessing(code):
     code = code.replace("%pip install ssm", "%pip install git+https://github.com/lindermanlab/ssm-jax-refactor.git")
     code = code.replace("%pip install google", "%pip install google-colab")
     code = code.replace("import pgmpy_utils as pgm", "import probml_utils.pgmpy_utils as pgm")
-    code = code.replace("%pip install pgmpy_utils", "%pip install git+https://github.com/probml/probml-utils.git pgmpy")
+    code = code.replace("%pip install pgmpy_utils", "%pip install git+https://github.com/gkalin/probml-utils.git pgmpy")
     return code
 
 def add_pip_qq_flag(code):

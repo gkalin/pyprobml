@@ -12,7 +12,7 @@ The code uses the standard Python libraries, such as numpy, scipy, matplotlib, s
 Some of the code (especially in book 2) also uses [JAX](https://github.com/google/jax),
 and in some parts of book 1, we also use  [Tensorflow 2](https://github.com/tensorflow/tensorflow)
 and a little bit of [Torch](https://github.com/pytorch).
-See also [probml-utils](https://github.com/probml/probml-utils) for some utility code that is shared across multiple notebooks.
+See also [probml-utils](https://github.com/gkalin/probml-utils) for some utility code that is shared across multiple notebooks.
 
 For the latest status of the code,
 see [Book 1 dashboard](https://github.com/probml/pyprobml/blob/workflow_testing_indicator/dashboard_figures_book1.md)
@@ -76,7 +76,7 @@ import os
 os.environ["FIG_DIR"] = "/teamspace/studios/this_studio/pyprobml/notebooks/figures"
 os.environ["DUAL_SAVE"] = "1" # both pdf and png
 ```
-This is used by the [savefig](https://github.com/probml/probml-utils/blob/main/probml_utils/plotting.py#L78) function
+This is used by the [savefig](https://github.com/gkalin/probml-utils/blob/main/probml_utils/plotting.py#L78) function
 to store pdf files.
 
 
